@@ -1,0 +1,37 @@
+body {
+  background-image: url('https://ak1.picdn.net/shutterstock/videos/25901801/thumb/1.jpg');
+  background-size:cover;
+  position: relative;
+}
+
+.App {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+input {
+  margin: 10px;
+}
+
+.reminder-form {
+  padding: 10;
+}
+
+.list-item {
+  display: inline-block;
+
+}
+
+.delete-button {
+  float: right;
+  padding-left: 5px;
+}
